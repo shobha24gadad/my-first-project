@@ -1,0 +1,132 @@
+/* BASIC RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+}
+
+/* NAVBAR */
+header {
+    background: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* HERO */
+.hero {
+    height: 80vh;
+    background: url('images/hero-bg.jpg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 0 20px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background: #d35400;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+/* SECTIONS */
+section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+/* MENU */
+.menu-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    width: 280px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.menu-item img {
+    width: 100%;
+}
+
+.menu-item h3 {
+    margin: 15px 0 10px;
+}
+
+/* GALLERY */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 15px;
+    width: 90%;
+    margin: auto;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* CONTACT */
+.contact-form input,
+.contact-form textarea {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+footer {
+    background: #222;
+    color: #fff;
+    padding: 15px;
+}
